@@ -5,16 +5,12 @@ var menNames = ['Adam', 'Marian', 'Stefan'];
 
 // łączenie tablic
 var allNames = womenNames.concat(menNames);
-console.log(allNames);
+// console.log(allNames);
 
-//dodanie imienia
-//allNames.splice(1, 0, 'Tadek');
-//console.log(allNames);
+//powtórzenie wartości
 
-//spr. powtórzeń
-
-var newName = 'Ania';
+var newName = 'Tadeusz';
   if (allNames.indexOf(newName) === -1) {
-    var x = allNames.push(newName);
+    allNames.push(newName);
   }
 console.log(allNames);

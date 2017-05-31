@@ -1,9 +1,7 @@
 // scripts.js
 
 function getTriangleArea(a, h) {
-	//var a = prompt('Enter base a');
-	//var h = prompt('Enter height h');
-	
+
     if ((a < 0) || (h < 0)) {
     console.log('Nieprawidłowe dane!');
     }
@@ -13,7 +11,11 @@ function getTriangleArea(a, h) {
 }
 console.log('Twój wynik: '+ getTriangleArea(10, 6));
 
-getTriangleArea();
+var getTriangle1Area = getTriangleArea(-2, 3);
+console.log('Twój wynik: ' + getTriangle1Area);
 
+var getTriangle2Area = getTriangleArea(5, 5);
+console.log('Twój wynik: ' + getTriangle2Area);
 
-/* Zrób trzy zmienne, które będą posiadały pole trójkąta, za każdym razem przekazując różne liczby w parametrze. Podpowiedź: var triangle1Area = getTriangleArea(10, 15); */
+var getTriangle3Area = getTriangleArea(5.8, 10.9);
+console.log('Twój wynik: ' + getTriangle3Area);

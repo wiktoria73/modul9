@@ -1,6 +1,9 @@
 // scripts.js
 
 function getTriangleArea(a, h) {
+	//var a = prompt('Enter base a');
+	//var h = prompt('Enter height h');
+	
     if ((a < 0) || (h < 0)) {
     console.log('Nieprawidłowe dane!');
     }

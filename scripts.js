@@ -1,13 +1,13 @@
 // scripts.js
 
-function drawTree(i) {
-  for (i = 1; i < 6; i++) {
+function drawTree(level) {
+  for (i = 1; i < level; i++) {
     var star = '';
 
-    for (j = i ; j < 6; j++) {
+    for (j = level-i ; j < level; j++) {
       star += '*';
     }
     console.log(star);
   }
 }
-drawTree();
+drawTree(6);

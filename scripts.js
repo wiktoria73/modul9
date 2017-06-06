@@ -121,22 +121,8 @@ function checkRoundWinner(playerPick, computerPick) {
           console.log('Computer score: ' + computer.score);
       }
 
-/*
-      // zakończenie, po kilku rundach
-    function lastScores() {
-      if (player.score == 3) {
-        console.log('You win!');
-        alert('You win!');
-        newGame();
-      } else if (computer.score == 3) {
-        console.log('You lose!');
-        alert('You lose!');
-        newGame();
-      }
- }
-setGamePoints();
-lastScores();
-*/
+      setGamePoints();
+      lastScores();
 
 }
 
